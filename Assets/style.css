@@ -1,3 +1,49 @@
 * {
 	font-family: 'Nixie One', cursive;
 }
+.navLink {
+	writing-mode: vertical-rl;
+	display: block;
+	margin-top: 50%;
+	text-decoration: none;
+	color: black;
+}
+.navLink:hover {
+	color: gray;
+}
+.navBar {
+	margin-top: 10%;
+	margin-left: 10%;
+	line-height: 100%;
+}
+.jumbotron {
+	margin-top: 10%;
+	background-color: rgba(25,25,25,0.0);
+	letter-spacing: 4px;
+}
+.landingImage {
+	width: 500px;
+	height: auto;
+}
+
+/*writing*/
+.left {
+	margin-left: 3%;
+	margin-top: 3%;
+}
+.left h3:hover {
+	text-decoration: underline;
+}
+
+.right {
+  position: absolute;
+  overflow-y: scroll;
+  margin-left: 25%;
+  width: 60%;
+}
+#backButton {
+	color: black;
+}
+#backButton:hover {
+	color: gray;
+}
